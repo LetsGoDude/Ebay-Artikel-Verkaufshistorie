@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Ebay Item Purchase History",
+  "version": "1.1",
+  "description": "Adds a button to the item page to display the order history on eBay",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": {
+      "48": "icon.png"
+    },
+    "default_title": "Ebay Item Purchase History",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.ebay.de/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
