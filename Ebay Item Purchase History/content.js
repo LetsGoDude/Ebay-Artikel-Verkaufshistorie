@@ -11,6 +11,12 @@ if (buyBoxCTAElements.length > 0) {
   var url = window.location.href;
   var itemNumberStartIndex = url.indexOf("/itm/") + 5; // Index nach "/itm/"
   var itemNumberEndIndex = url.indexOf("?", itemNumberStartIndex);
+  
+    // Wenn "?" nicht gefunden wurde, extrahiere die Artikelnummer bis zum Ende der URL
+  if (itemNumberEndIndex === -1) {
+    itemNumberEndIndex = url.length;
+  }
+  
   var itemNumber = url.substring(itemNumberStartIndex, itemNumberEndIndex);
 
   var historyButton = document.createElement("button");
