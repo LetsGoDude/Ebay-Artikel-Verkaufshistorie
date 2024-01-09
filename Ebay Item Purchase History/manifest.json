@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Ebay-Artikel-Verkaufshistorie",
+  "version": "1.2",
+  "description": "Fügt auf der Artikelseite einen Button hinzu, mit der die Verkaufshistorie für einen Artikel angezeigt werden kann. So können Sie den Preis sehen, für den der Artikel in der Vergangenheit verkauft wurde.",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": {
+      "48": "icon.png"
+    },
+    "default_title": "Ebay-Artikel-Verkaufshistorie",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.ebay.de/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
