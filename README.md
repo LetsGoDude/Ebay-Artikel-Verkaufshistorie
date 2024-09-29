@@ -8,5 +8,5 @@ Ich habe die Anwendung nach bestem Wissen und Gewissen geschrieben.
 
 https://addons.mozilla.org/de/firefox/addon/ebay-item-purchase-history/
 
-![Screenshot Button.](https://raw.githubusercontent.com/LetsGoDude/Ebay-Artikel-Verkaufshistorie/main/Ebay%20Item%20Purchase%20History/Screenshot%202024-01-08%20171002.png)
-![Screenshot History](https://raw.githubusercontent.com/LetsGoDude/Ebay-Artikel-Verkaufshistorie/main/Ebay%20Item%20Purchase%20History/Unbenannt.png)
+![Screenshot Button.](https://raw.githubusercontent.com/LetsGoDude/Ebay-Artikel-Verkaufshistorie/refs/heads/main/Ebay%20Item%20Purchase%20History/Screenshot1.png)
+![Screenshot History](https://raw.githubusercontent.com/LetsGoDude/Ebay-Artikel-Verkaufshistorie/refs/heads/main/Ebay%20Item%20Purchase%20History/Screenshot2.png)
