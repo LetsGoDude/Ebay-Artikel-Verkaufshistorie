@@ -1,7 +1,7 @@
 // content.js
 // Beispiel: Extrahieren der Artikelnummer aus der URL und Hinzufügen des Buttons
 
-var buyBoxCTAElements = document.getElementsByClassName("x-buybox__price-section");
+var buyBoxCTAElements = document.getElementsByClassName("vim vi-evo-row-gap");
 
 // Überprüfen, ob mindestens ein Element mit der Klasse gefunden wurde
 if (buyBoxCTAElements.length > 0) {
@@ -18,6 +18,12 @@ if (buyBoxCTAElements.length > 0) {
   }
   
   var itemNumber = url.substring(itemNumberStartIndex, itemNumberEndIndex);
+  
+  // Extrahiere die aktuelle Domain aus der URL
+  var currentDomain = window.location.hostname;  // Gibt z.B. "www.ebay.de" zurück
+
+  // Erstelle die purchaseHistoryURL dynamisch basierend auf der aktuellen Domain
+  var purchaseHistoryURL = "https://" + currentDomain + "/bin/purchaseHistory?item=" + itemNumber;
 
   var historyButton = document.createElement("button");
   historyButton.innerHTML = "History";
@@ -35,8 +41,7 @@ if (buyBoxCTAElements.length > 0) {
   historyButton.style.borderRadius = "20px"; // Stärker abgerundete Kanten
   historyButton.style.cursor = "pointer";
 
-  // Erstellen Sie die URL mit der Artikelnummer und fügen Sie einen Event-Listener zum Button hinzu
-  var purchaseHistoryURL = "https://www.ebay.de/bin/purchaseHistory?item=" + itemNumber;
+  // Fügen Sie einen Event-Listener zum Button hinzu, um die URL in einem neuen Tab zu öffnen
   historyButton.addEventListener("click", function () {
     window.open(purchaseHistoryURL, '_blank'); // Öffnen Sie die URL in einem neuen Tab
   });

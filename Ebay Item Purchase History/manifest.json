@@ -1,22 +1,39 @@
 {
   "manifest_version": 2,
-  "name": "Ebay-Artikel-Verkaufshistorie",
-  "version": "1.2",
-  "description": "Fügt auf der Artikelseite einen Button hinzu, mit der die Verkaufshistorie für einen Artikel angezeigt werden kann. So können Sie den Preis sehen, für den der Artikel in der Vergangenheit verkauft wurde.",
-  "permissions": ["activeTab"],
-  "browser_action": {
-    "default_icon": {
-      "48": "icon.png"
-    },
-    "default_title": "Ebay-Artikel-Verkaufshistorie",
-    "default_popup": "popup.html"
-  },
+  "name": "Ebay Item Purchase History",
+  "version": "1.3",
+  "description": "Adds a button to the item page to display the order history on ebay.",
+  
   "icons": {
     "48": "icon.png"
   },
+
   "content_scripts": [
     {
-      "matches": ["*://*.ebay.de/*"],
+      "matches": [
+        "*://*.ebay.com/*",
+        "*://*.ebay.de/*",
+        "*://*.ebay.co.uk/*",
+        "*://*.ebay.com.au/*",
+        "*://*.ebay.ca/*",
+        "*://*.ebay.fr/*",
+        "*://*.ebay.it/*",
+        "*://*.ebay.es/*",
+        "*://*.ebay.ie/*",
+        "*://*.ebay.nl/*",
+        "*://*.ebay.ch/*",
+        "*://*.ebay.at/*",
+        "*://*.ebay.be/*",
+        "*://*.ebay.com.hk/*",
+        "*://*.ebay.com.sg/*",
+        "*://*.ebay.in/*",
+        "*://*.ebay.ph/*",
+        "*://*.ebay.my/*",
+        "*://*.ebay.com.br/*",
+        "*://*.ebay.pl/*",
+        "*://*.ebay.com.mx/*",
+        "*://*.ebay.co.th/*"
+      ],
       "js": ["content.js"]
     }
   ]
