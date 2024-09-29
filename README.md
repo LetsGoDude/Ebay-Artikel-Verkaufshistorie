@@ -3,9 +3,6 @@ Wenn Sie auf diese Schaltfläche klicken, öffnet sich eine neuer Tab mit der Ve
 
 Diese Funktion gab es früher bei ebay, wurde aber vor einiger Zeit entfernt.
 
-NUR FÜR EBAY DEUTSCHLAND.
-ONLY FOR EBAY GERMANY.
-
 Ich bin ein Hobbyentwickler.
 Ich habe die Anwendung nach bestem Wissen und Gewissen geschrieben.
 
