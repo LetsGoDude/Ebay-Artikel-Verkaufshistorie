@@ -67,7 +67,7 @@
 &nbsp;
 ## 🛠️ Support
 
-If you encounter any issues or have suggestions for improvements, please open an issue on our [GitHub repository](https://github.com/LetsGoDude/Ebay-Artikel-Verkaufshistorie/issues).
+If you encounter any issues or have suggestions for improvements, please open an issue on our [GitHub repository](https://github.com/LetsGoDude/Ebay-Artikel-Verkaufshistorie/issues) or contact us directly at [letsgodude@wolke7.net](mailto:letsgodude@wolke7.net).
 
 &nbsp;
 ## 📄 License
