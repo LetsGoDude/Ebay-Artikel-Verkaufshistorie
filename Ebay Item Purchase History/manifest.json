@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Ebay Item Purchase History",
-  "version": "1.3",
-  "description": "Adds a button to the item page to display the order history on ebay.",
+  "version": "1.4",
+  "description": "Adds a button to the item page to display the order history on eBay.",
   
   "icons": {
     "48": "icon.png"
@@ -32,9 +32,46 @@
         "*://*.ebay.com.br/*",
         "*://*.ebay.pl/*",
         "*://*.ebay.com.mx/*",
-        "*://*.ebay.co.th/*"
+        "*://*.ebay.co.th/*",
+        "*://*.ebay.co.jp/*",
+        "*://*.ebay.ru/*",
+        "*://*.ebay.co.kr/*"
+        // Weitere Domains und Subdomains können hier hinzugefügt werden
       ],
       "js": ["content.js"]
     }
+  ],
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "host_permissions": [
+    "*://*.ebay.com/*",
+    "*://*.ebay.de/*",
+    "*://*.ebay.co.uk/*",
+    "*://*.ebay.com.au/*",
+    "*://*.ebay.ca/*",
+    "*://*.ebay.fr/*",
+    "*://*.ebay.it/*",
+    "*://*.ebay.es/*",
+    "*://*.ebay.ie/*",
+    "*://*.ebay.nl/*",
+    "*://*.ebay.ch/*",
+    "*://*.ebay.at/*",
+    "*://*.ebay.be/*",
+    "*://*.ebay.com.hk/*",
+    "*://*.ebay.com.sg/*",
+    "*://*.ebay.in/*",
+    "*://*.ebay.ph/*",
+    "*://*.ebay.my/*",
+    "*://*.ebay.com.br/*",
+    "*://*.ebay.pl/*",
+    "*://*.ebay.com.mx/*",
+    "*://*.ebay.co.th/*",
+    "*://*.ebay.co.jp/*",
+    "*://*.ebay.ru/*",
+    "*://*.ebay.co.kr/*"
+    // Weitere Domains und Subdomains können hier hinzugefügt werden
   ]
 }
