@@ -36,7 +36,7 @@
         "*://*.ebay.co.jp/*",
         "*://*.ebay.ru/*",
         "*://*.ebay.co.kr/*"
-        // Weitere Domains und Subdomains können hier hinzugefügt werden
+        // Add any additional domains here
       ],
       "js": ["content.js"]
     }
@@ -72,6 +72,12 @@
     "*://*.ebay.co.jp/*",
     "*://*.ebay.ru/*",
     "*://*.ebay.co.kr/*"
-    // Weitere Domains und Subdomains können hier hinzugefügt werden
-  ]
+    // Add any additional domains here
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "letsgodude@wolke7.net"
+    }
+  }
 }
