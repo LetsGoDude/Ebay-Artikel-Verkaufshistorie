@@ -3,11 +3,11 @@
 
 **Ebay Item Purchase History** is a user-friendly [Firefox Add-On](https://addons.mozilla.org/de/firefox/addon/ebay-item-purchase-history) that allows you to view the price history of any eBay item directly on its product page. With a simple click on the newly added "Price history" button, you gain valuable insights into the pricing trends of your desired products.
 
-![grafik](https://github.com/user-attachments/assets/3ccaaeff-f847-46ad-9a42-3bacd9d1a465)
-![grafik](https://github.com/user-attachments/assets/f42fddc4-b210-435c-9de1-c87c8fcae5c1)
-
 > [!NOTE]
 > You must be logged in to ebay to access the page.
+
+![grafik](https://github.com/user-attachments/assets/3ccaaeff-f847-46ad-9a42-3bacd9d1a465)
+![grafik](https://github.com/user-attachments/assets/f42fddc4-b210-435c-9de1-c87c8fcae5c1)
 
 &nbsp;
 ## 🚀 Features
